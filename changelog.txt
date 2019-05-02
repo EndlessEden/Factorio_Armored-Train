@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.16
+Version: 0.2.2
   Info:
     - Fixed graphics for wagons and platforms (shadows and masks)
 
