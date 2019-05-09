@@ -94,6 +94,29 @@ armored_wagon_cannon_mk1.pictures =
 				},
 			},
 			--DECORATIVES
+			
+			--SHADOW
+			{
+				priority = "very-low",
+				--draw_as_shadow = true, 		--draw as shadow on groud level as in riginal game (use original shadow zip)
+				width = 97,
+				height = 67,
+				back_equals_front = false,      --means to not rotate mirroring
+				direction_count = 128, 			--means to add aditional frames
+				allow_low_quality_rotation = true,
+				line_length = 32,
+				lines_per_file = 1,
+				shift = {0.0, -1.7},
+				scale = 1,
+				filenames =
+				{
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-01-shadow.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-02-shadow.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-03-shadow.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-04-shadow.png",
+				},
+			},
+			--MAIN SPRITE
 			{
 				priority = "very-low",
 				width = 90,
@@ -104,13 +127,33 @@ armored_wagon_cannon_mk1.pictures =
 				line_length = 32,
 				lines_per_file = 1,
 				shift = {0.0, -1.9},
-				scale = 1	,
+				scale = 1,
 				filenames =
 				{
 				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-01.png",
 				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-02.png",
 				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-03.png",
 				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-04.png",
+				},
+			},
+			--MASK
+			{
+				priority = "very-low",
+				width = 36,
+				height = 33,
+				back_equals_front = false,    --means to not rotate mirroring
+				direction_count = 128, 		--means to add aditional frames
+				allow_low_quality_rotation = true,
+				line_length = 32,
+				lines_per_file = 1,
+				shift = {0.0, -1.9},
+				scale = 1,
+				filenames =
+				{
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-01-mask.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-02-mask.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-03-mask.png",
+				"__Armored-train__/graphics/entity/tank-cannon-128/tank-cannon-128-04-mask.png",
 				},
 			}
 		},

@@ -94,6 +94,27 @@ armored_wagon_chaingun_mk1.pictures =
 				},
 			},
 			--DECORATIVES
+			--SHADOW
+			{
+				priority = "very-low",
+				width = 77,
+				height = 54,
+				back_equals_front = false,    --means to not rotate mirroring
+				direction_count = 128, 		--means to add aditional frames
+				allow_low_quality_rotation = true,
+				line_length = 32,
+				lines_per_file = 1,
+				shift = {0.4, -1.9},
+				scale = 1	,
+				filenames =
+				{
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-01-shadow.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-02-shadow.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-03-shadow.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-04-shadow.png",
+				}
+			},
+			--MAIN SPRITE
 			{
 				priority = "very-low",
 				width = 72,
@@ -111,8 +132,29 @@ armored_wagon_chaingun_mk1.pictures =
 				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-02.png",
 				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-03.png",
 				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-04.png",
-				},
+				}
+			},
+			--MASK
+			{
+				priority = "very-low",
+				width = 72,
+				height = 57,
+				back_equals_front = false,    --means to not rotate mirroring
+				direction_count = 128, 		--means to add aditional frames
+				allow_low_quality_rotation = true,
+				line_length = 32,
+				lines_per_file = 1,
+				shift = {0.0, -2.2},
+				scale = 1	,
+				filenames =
+				{
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-01-mask.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-02-mask.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-03-mask.png",
+				"__Armored-train__/graphics/entity/chaingun-turret-128/chaingun-turret-128-04-mask.png",
+				}
 			}
+			
 		},
 	}
 
