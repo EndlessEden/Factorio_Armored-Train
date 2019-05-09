@@ -1,20 +1,18 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.16
+Version: 0.2.16 
   Info:
-    - Fixed graphics for wagons and platforms (shadows and masks)
-
-  Changes:
-    - Other minor fixes
-    
+    - Fixed shadows and masks for some wagons.
+	- Minor fixes.
+	- P.S. A. Train will be remade in future update. B. Ammo compatibility coming in next update.
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.15 BETA
+Version: 0.2.151 BETA
   Info:
     - Fixed graphics for rocket, cannon, minigun platforms/wagons.
+	- Fix for factorio 0.17.34 (See fff #293)
 
   Changes:
     - Cannon platform are no more! Replaced with Cannon Wagon!
     - Other minor fixes
-    - Modular wagons / platforms
     
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.11 BETA

@@ -1,0 +1,19 @@
+1. Loco shadow
+
+2. Radar
+
+3. Repair wagon
+
+//graphics
+
+4. tank cannn shadow +
+
+5. minigun wag shadow + 
+
+6. minigun wagon shadow +
+
+7. radar shadow
+
+//texts
+
+8. fill changelog MINOR
