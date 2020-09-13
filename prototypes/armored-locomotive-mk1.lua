@@ -118,7 +118,55 @@ armored_locomotive_mk1.pictures =															--add shadows cuz picturs is rep
 			line_length = 32,
 			lines_per_file = 1,
 			shift = {-0.1, -0.5},																		--add color mask when finished!!!!!!!!!!!
-        }
+        },
+		{
+			priority = "very-low",
+			flags = { "mask" },
+			width = 238,
+			height = 230,
+			direction_count = 256,
+			allow_low_quality_rotation = true,
+			filenames =
+			{
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-01.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-02.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-03.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-04.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-05.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-06.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-07.png",
+			"__Armored-train__/graphics/entity/armored-locomotive-mk1/armored-locomotive-mk1-mask-08.png"
+			},
+			line_length = 32,
+			lines_per_file = 1,
+			shift = {-0.1, -0.5},	
+			apply_runtime_tint = true
+		},
+		--SHADOW
+		{
+			priority = "very-low",
+			slice = 4,
+			flags = { "shadow" },
+			width = 253,
+			height = 212,
+			direction_count = 256,
+			draw_as_shadow = true,
+			allow_low_quality_rotation = true,
+			filenames =
+			{
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-01.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-02.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-03.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-04.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-05.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-06.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-07.png",
+				"__base__/graphics/entity/diesel-locomotive/diesel-locomotive-shadow-08.png"
+			},
+			line_length = 4,
+			lines_per_file = 8,
+			shift = {0.5, 0.3}
+		}
 		--DECO LAYERS
 	  }
     }

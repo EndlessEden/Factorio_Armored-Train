@@ -72,7 +72,7 @@ wagon_cannon_turret_ammo.ammo_type =
           starting_speed = 1,
           direction_deviation = 0.1,
           range_deviation = 0.1,
-          max_range = 30,
+          max_range = 25,
           min_range = 5,
           source_effects =
           {
@@ -104,7 +104,7 @@ wagon_cannon_turret_uranium_ammo.ammo_type =
           direction_deviation = 0.1,
           range_deviation = 0.1,
           max_range = 25,
-          min_range = 4,
+          min_range = 5,
           source_effects =
           {
             type = "create-explosion",

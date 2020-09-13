@@ -1,3 +1,3 @@
-Pi-C - changelog
+Pi-C - changelog, scripting fixes (mod compatibility)
 
-robot256 - custom ammo compatibility
+robot256 - custom ammo compatibility cript (not bundled yet)
