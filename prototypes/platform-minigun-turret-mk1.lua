@@ -1,3 +1,5 @@
+local sounds = require ("__base__.prototypes.entity.demo-gunshot-sounds")
+
 ---------------------
 --DEFINE FAKE ITEMS--
 ---------------------
@@ -86,7 +88,7 @@ platform_minigun_turret_mk1.attack_parameters =
         starting_frame_speed_deviation = 0.1
       },
       range = 18,
-      sound = make_heavy_gunshot_sounds()
+      sound = sounds.heavy_gunshot
     }		
 
 --COPY FROM BASE HP data from tank \/
